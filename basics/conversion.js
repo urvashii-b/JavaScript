@@ -26,3 +26,36 @@ if X="nasa" --> true
 if X="" --> false
 */
 
+// OPERATIONS
+
+let value = 32
+let negValue = -value
+console.log(negValue)
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**5);
+console.log(2/10);
+console.log(2%3);
+
+let str1 = "hello"
+let str2 = " world"
+let str3 = str1+str2
+console.log(str3)
+
+console.log("1"+2); // 12
+console.log(1+"2"); // 12
+console.log("1"+2+2); // 122
+console.log(1+2+"2"); // * 32 * --> Use paranthesis: better way
+
+console.log(+true); // converts to 1
+// console.log(true+); // SyntaxError: Unexpected token
+
+let x = 3
+const y = x++
+console.log(`x:${x}, y:${y}`); // x:4, y:3
+
+let a = 4
+const b = ++a
+console.log(`a:${a}, b:${b}`); // a:5, y:5
