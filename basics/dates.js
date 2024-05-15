@@ -19,7 +19,7 @@ console.log(myTimestamp);
 
 console.log(createdDate.getTime())
 
-console.log(Math.floor(Date.now()/1000))
+console.log(Math.floor(Date.now()/1000)) // seconds
 
 let newDate = new Date()
 console.log(newDate.getMonth()+1);
